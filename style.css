@@ -43,6 +43,18 @@
     border: 1px solid;
 }
 
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .header-top-height { height:30px }
 .header-height { height:200px }
 .menu-height { height:50px }
